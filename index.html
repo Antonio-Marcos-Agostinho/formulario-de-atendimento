@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de colisão</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js"></script>
+  
+</head>
+<body>
+  <h1>Controle de atendimento </h1>
+
+  <form id="form">
+    <label for="name">Nome:</label>
+    <input type="text" id="name">
+  
+    <!--Ajeitei um négocio aqui e tava errado, tava assim antes
+
+   <label for="phone">telefone:</label>
+    <input type="text" id="telefone"</label>
+
+    ai dava um errinho pq o labem tava sendo fechado no lugar do input
+    -->
+    <label for="phone">telefone:</label>
+    <input type="text" id="telefone">
+
+    <label for="veiculo">veículo:</label>
+    <input type="text" id="veiculo">
+
+    <label for="cor">cor:</label>
+    <input type="text" id="cor">
+
+    <label for="ano">ano:</label>
+    <input type="text" id="ano">
+
+
+    <label for="sentido">sentido :</label>
+    <select name="sentido" id="sentido">
+      <option value="">sentido que o carro se encontra?</option>
+      <option value="norte">norte</option>
+      <option value="sul">sul</option>
+      
+    </select>
+
+    
+  <label for="message">observação:</label>
+  <textarea name="message" id="message"></textarea>
+
+  <button type="submit">enviar</button>
+   
+  </form> 
+</body>
+</html>
